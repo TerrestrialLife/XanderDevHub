@@ -1,0 +1,209 @@
+body {
+  font-family: 'inter', sans-serif;
+  background-color: #0a0f2c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  height: 100vh;
+}
+@media (max-width: 1024px) {
+  #btn1, #btn2, #btn3, #btn4, #btn5 {
+    font-size: 25px;
+  }
+  #aboutText, #web1, #web2, #web3 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  #aboutText, #web1, #web2, #web3, #btn1, #btn2, #btn3, #btn4, #btn5 {
+    font-size: 10px;
+  }
+  #webName {
+    font-size: 15px;
+  }
+  #description {
+    font-size: 5px;
+  }
+}
+#box1 {
+  background-color: #0a0f2c;
+  width: 90%;
+  height: auto;
+}
+#box2 {
+  background-color: whitesmoke;
+  width: 85%;
+  height: 100px;
+  margin: 5px auto;
+  border-radius: 5px;
+  font-weight: bold;
+  display: flex;
+}
+#webName {
+  margin: auto;
+}
+#box3 {
+  background-color: rgb(200, 200, 200);
+  width: 95%;
+  height: 40px;
+  margin: 5px auto;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+#box3-1 {
+  background-color: rgb(200, 200, 200);
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+#btn1, #btn2 {
+  background-color: black;
+  width: 90%;
+  height: 80%;
+  margin: auto;
+  border: none;
+  color: whitesmoke;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+#box4 {
+  background-color: rgb(150, 150, 150);
+  width: 85%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 3px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+#box4-1 {
+  background-color: black;
+  width: 90%;
+  margin: 10px auto;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+#description {
+  margin: 10px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+#box4-2 {
+  background-color: rgb(70, 70, 70);
+  width: 90%;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+#box5 {
+  background-color: rgb(150, 150, 150);
+  width: 95%;
+  height: 100px;
+  margin: auto;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+#box5-1 {
+  background-color: #121a45;
+  width: 95%;
+  height: 80%;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(79, 195, 247, 0.5);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+#btn3, #btn4 {
+  background-color: #1a237e;
+  width: 90%;
+  height: 80%;
+  border: 2px solid #4fc3f7;
+  margin: auto;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+  transition: background-color 0.3s, border-radius 0.3s, color 0.3s, border 0.3s, box-shadow 0.3s;
+}
+#btn3:hover, #btn4:hover, #btn5:hover {
+  background-color: whitesmoke;
+  border-radius: 20px;
+  color: black;
+  border: none;
+  box-shadow: 0 0 20px rgba(79, 100, 247, 0.9);
+}
+#box5-2 {
+  background-color: #121a45;
+  width: 95%;
+  height: 80%;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(79, 195, 247, 0.5);
+  display: grid;
+}
+#btn5 {
+  background-color: #1a237e;
+  width: 90%;
+  height: 80%;
+  border: 2px solid #4fc3f7;
+  color: white;
+  margin: auto;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s, border-radius 0.3s, color 0.3s, border 0.3s, box-shadow 0.3s;
+}
+#box6 {
+  background-color: rgb(150, 150, 150);
+  width: 85%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 3px;
+  display: none;
+}
+#box6-1 {
+  background-color: black;
+  width: 90%;
+  height: auto;
+  margin: auto;
+  border-radius: 3px;
+}
+#aboutText {
+  color: white;
+  margin-left: 10px;
+  font-weight: bold;
+}
+#image {
+  width: 100%;
+  border-radius: 5px;
+}
+#container1 {
+  background-color: rgb(200, 200, 200);
+  width: 90%;
+  height: 40px;
+  margin: auto;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+#container2 {
+  background-color: #0a0f2c;
+  width: 90%;
+  height: auto;
+  margin: auto;
+  border-radius: 5px;
+}
+#web1, #web2, #web3 {
+  background-color: black;
+  width: 90%;
+  height: 80%;
+  margin: auto;
+  border: none;
+  font-weight: bold;
+  border-radius: 10px;
+  color: white;
+  transition: background-color 0.3s, color 0.3s;
+}
