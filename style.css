@@ -98,7 +98,7 @@ body {
   border-radius: 10px;
 }
 #box5 {
-  background-color: rgb(150, 150, 150);
+  background-color: rgb(200, 200, 200);
   width: 95%;
   height: 100px;
   margin: auto;
@@ -108,7 +108,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
 }
 #box5-1 {
-  background-color: #121a45;
+  background-color: whitesmoke;
   width: 95%;
   height: 80%;
   margin: auto;
@@ -118,10 +118,10 @@ body {
   grid-template-columns: repeat(2, 1fr);
 }
 #btn3, #btn4 {
-  background-color: #1a237e;
+  background-color: black;
   width: 90%;
   height: 80%;
-  border: 2px solid #4fc3f7;
+  border: none;
   margin: auto;
   border-radius: 10px;
   font-weight: bold;
@@ -136,7 +136,7 @@ body {
   box-shadow: 0 0 20px rgba(79, 100, 247, 0.9);
 }
 #box5-2 {
-  background-color: #121a45;
+  background-color: whitesmoke;
   width: 95%;
   height: 80%;
   margin: auto;
@@ -145,10 +145,10 @@ body {
   display: grid;
 }
 #btn5 {
-  background-color: #1a237e;
+  background-color: black;
   width: 90%;
   height: 80%;
-  border: 2px solid #4fc3f7;
+  border: none;
   color: white;
   margin: auto;
   border-radius: 10px;
