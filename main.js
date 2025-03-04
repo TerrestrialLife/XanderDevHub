@@ -3,10 +3,12 @@ var website = 0;
 var web1 = 1;
 var web2 = 1;
 var web3 = 1;
+var web4 = 1;
 
 let webs1 = document.getElementById('web1');
 let webs2 = document.getElementById('web2');
 let webs3 = document.getElementById('web3');
+let webs4 = document.getElementById('web4');
 let btn1 = document.getElementById('btn1');
 let btn2 = document.getElementById('btn2');
 
@@ -20,6 +22,7 @@ function web(input) {
     webs1.style.cssText = "background-color: whitesmoke; color: black; box-shadow: 0 0 20px rgba(79, 100, 247, 0.9);";
     webs2.style.cssText = "background-color: black; color: whitesmoke;";
     webs3.style.cssText = "background-color: black; color: whitesmoke;";
+    webs4.style.cssText = "background-color: black; color: whitesmoke;";
   }
   else if (website == 2) {
     document.getElementById('webName').innerHTML = "Kinematic Equation 1";
@@ -27,6 +30,7 @@ function web(input) {
     webs1.style.cssText = "background-color: black; color: whitesmoke;";
     webs2.style.cssText = "background-color: whitesmoke; color: black; box-shadow: 0 0 20px rgba(79, 100, 247, 0.9);";
     webs3.style.cssText = "background-color: black; color: whitesmoke;";
+    webs4.style.cssText = "background-color: black; color: whitesmoke;";
   }
   else if (website == 3) {
     document.getElementById('webName').innerHTML = "Kinematic Equation 2";
@@ -34,6 +38,15 @@ function web(input) {
     webs1.style.cssText = "background-color: black; color: whitesmoke;";
     webs2.style.cssText = "background-color: black; color: whitesmoke;";
     webs3.style.cssText = "background-color: whitesmoke; color: black; box-shadow: 0 0 20px rgba(79, 100, 247, 0.9);";
+    webs4.style.cssText = "background-color: black; color: whitesmoke;";
+  }
+  else if (website == 4) {
+    document.getElementById('webName').innerHTML = "Projectile Motion";
+    document.getElementById('description').innerHTML = "Introducing the Projectile Motion Calculator! Easily calculate projectile trajectories by simply inputting the angle and velocity. Get accurate results for motion analysis, making physics calculations faster and more convenient. Perfect for students, engineers, and enthusiasts.";
+    webs1.style.cssText = "background-color: black; color: whitesmoke;";
+    webs2.style.cssText = "background-color: black; color: whitesmoke;";
+    webs4.style.cssText = "background-color: whitesmoke; color: black; box-shadow: 0 0 20px rgba(79, 100, 247, 0.9);";
+    webs3.style.cssText = "background-color: black; color: whitesmoke;";
   }
   right();
   left();
@@ -82,6 +95,20 @@ function right() {
       }
     }
   }
+  else if (website == 4) {
+    if (web4 < 3) {
+      web4++;
+      if (web4 == 1) {
+        document.getElementById('image').src = "web4/image1.png";
+      }
+      else if (web4 == 2) {
+        document.getElementById('image').src = "web4/image2.png";
+      }
+      else if (web4 == 3) {
+        document.getElementById('image').src = "web4/image3.png";
+      }
+    }
+  }
 }
 function left() {
   
@@ -127,6 +154,20 @@ function left() {
       }
     }
   }
+  else if (website == 4) {
+    if (web4 > 1) {
+      web4--;
+      if (web4 == 1) {
+        document.getElementById('image').src = "web4/image1.png";
+      }
+      else if (web4 == 2) {
+        document.getElementById('image').src = "web4/image2.png";
+      }
+      else if (web4 == 3) {
+        document.getElementById('image').src = "web4/image3.png";
+      }
+    }
+  }
 }
 
 function enterWeb() {
@@ -138,6 +179,9 @@ function enterWeb() {
   }
   else if (website == 3) {
     window.location.href = "https://terrestriallife.github.io/Kinematic-Equation-2/";
+  }
+  else if (website == 4) {
+    window.location.href = "https://terrestriallife.github.io/Projectile-Motion/";
   }
 }
 
